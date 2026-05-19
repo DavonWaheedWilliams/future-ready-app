@@ -1,0 +1,37 @@
+# Local database
+future_ready.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploaded private files
+secure_uploads/
+uploads/
+
+# Generated exports
+exports/
+
+# Environment variables and secrets
+.env
+.env.*
+secrets.toml
+.streamlit/secrets.toml
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
